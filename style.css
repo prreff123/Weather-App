@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgb(30, 176, 195), rgb(10, 35, 179));
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.container {
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background: url('https://th.bing.com/th/id/R.676f96fd1a8c30ee35fbb1c24a6a61e2?rik=D80JR8t4%2bZqTIQ&riu=http%3a%2f%2fimg14.deviantart.net%2fe2eb%2fi%2f2014%2f247%2fa%2f3%2fcloud_01_png_by_heroys-d7xym3w.png&ehk=PxdW7jajkaugOEpKt1WQfawIIufl5LNs0An1f%2bCTh90%3d&risl=&pid=ImgRaw&r=0');
+    background-size: cover;
+    background-position: 100px;
+}
+
+.container h1 {
+    padding: 20px 0px;
+}
+
+.container input[type="text"] {
+    height: 40px;
+    width: 300px;
+    border: 0;
+    outline: none;
+    margin: 0 50px;
+    padding-left: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: capitalize;
+    box-sizing: border-box;
+}
+
+::placeholder {
+    color: #d4d4d4;
+}
+
+.btn {
+    padding: 10px 30px;
+    margin: 20px 0px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 15px;
+    border: 2px solid #fff;
+    color: rgb(44, 103, 171);
+    background-color: aqua;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #000;
+}
+
+.showdata {
+    margin: 80px 0px;
+    line-height: 1.6;
+}
+
+.showdata ul {
+    list-style: none;
+}
+
+.showdata .city {
+    font-size: 5rem;
+}
+
+.showdata .temp {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.showdata .desc {
+    font-size: 2rem;
+    text-transform: capitalize;
+}
